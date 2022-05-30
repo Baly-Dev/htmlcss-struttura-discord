@@ -67,7 +67,17 @@ nav li{
     list-style: none;
 }
 
+/* section01 */
 
+#section01{
+    padding: 40px 25%;
+}
+
+#section01 .content{
+    min-height: 350px;
+}
+
+/* section02 */
 
 
 
@@ -81,5 +91,14 @@ nav li{
 }
 
 .debug nav .cl{
+    border: 1px dashed #000;
+}
+
+.debug #section01{
+    background-color: rgb(0, 0, 133);
+}
+
+.debug #section01 .content{
+    background-color: rgb(224, 135, 232);
     border: 1px dashed #000;
 }
