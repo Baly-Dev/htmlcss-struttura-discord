@@ -79,8 +79,7 @@ nav li{
     list-style: none;
 }
 
-/* section01 */
-
+/* sections */
 #section01{
     padding: 40px 25%;
 }
@@ -89,7 +88,10 @@ nav li{
     min-height: 350px;
 }
 
-/* sections */
+#section05 .content{
+    min-height: 750px;
+}
+
 .section-style{
     padding: 40px 0px;
 }
@@ -107,6 +109,34 @@ nav li{
     width: 60%;
 }
 
+/* footer */
+footer{
+    background-color: rgb(37, 39, 42);
+    padding: 15px 0px;
+}
+
+footer .first .cl{
+    min-height: 400px;
+}
+
+footer .first .cl{
+    min-width: calc(100% / 6);
+}
+
+footer .second{
+    padding: 10px 0px;
+}
+
+footer .second .cl{
+    padding: 5px;
+}
+
+footer hr{
+    margin: 15px 0px;
+}
+
+
+
 
 /* debug classes */
 .debug header{
@@ -117,7 +147,7 @@ nav li{
     background-color: rgb(210, 167, 65);
 }
 
-.debug nav .cl{
+.debug .cl{
     border: 1px dashed #000;
 }
 
@@ -127,15 +157,37 @@ nav li{
 
 .debug #section01 .content{
     background-color: rgb(224, 135, 232);
-    border: 1px dashed #000;
+}
+
+.debug #section05 .content{
+    background-color: rgb(69, 137, 51);
 }
 
 .debug .section-style .left{
     background-color: rgb(69, 142, 247);
-    border: 1px dashed #000;
 }
 
 .debug .section-style .right{
     background-color: rgb(245, 194, 203);
-    border: 1px dashed #000;
+}
+
+.debug footer{
+    background-color: rgb(37, 39, 42);
+}
+
+.debug footer .ws{
+    background-color: rgb(85, 175, 169);
+    border-color: #fff;
+}
+
+.debug footer .wb{
+    background-color: rgb(225, 134, 131);
+}
+
+.debug footer .second{
+    background-color: rgb(160, 252, 214);
+}
+
+.debug footer .second .cl{
+    background-color: rgb(225, 134, 131);
 }
