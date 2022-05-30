@@ -1,0 +1,85 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global */
+.flex-r{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.flex-c{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.a-items-c{
+    align-items: center;
+}
+
+.j-content-sb{
+    justify-content: space-between;
+}
+
+.j-content-ct{
+    justify-content: center;
+}
+
+.j-content-en{
+    justify-content: flex-end;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.boxed{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tr{
+    text-align: right;
+}
+
+.tc{
+    text-align: center;
+}
+
+/* header */
+header{
+    padding: 10px 0px;
+}
+
+nav .cl{
+    padding: 10px 5px;
+    min-width: 15%;
+}
+
+nav li{
+    list-style: none;
+}
+
+
+
+
+
+/* debug classes */
+.debug header{
+    background-color: rgb(183, 215, 228);
+}
+
+.debug nav{
+    background-color: rgb(210, 167, 65);
+}
+
+.debug nav .cl{
+    border: 1px dashed #000;
+}
