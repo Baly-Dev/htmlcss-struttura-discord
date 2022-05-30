@@ -57,6 +57,14 @@
     text-align: center;
 }
 
+.bg-gray{
+    background-color: rgb(211, 211, 211);
+}
+
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+
 /* header */
 header{
     padding: 10px 0px;
@@ -81,23 +89,24 @@ nav li{
     min-height: 350px;
 }
 
-/* section02 */
-#section02{
+/* sections */
+.section-style{
     padding: 40px 0px;
 }
 
-#section02 .right, #section02 .left{
+.section-style .right, .section-style .left{
     min-height: 400px;
     padding: 20px 20px;
 }
 
-#section02 .right{
+.section-style .right{
     width: 40%;
 }
 
-#section02 .left{
+.section-style .left{
     width: 60%;
 }
+
 
 /* debug classes */
 .debug header{
@@ -121,12 +130,12 @@ nav li{
     border: 1px dashed #000;
 }
 
-.debug #section02 .left{
+.debug .section-style .left{
     background-color: rgb(69, 142, 247);
     border: 1px dashed #000;
 }
 
-.debug #section02 .right{
+.debug .section-style .right{
     background-color: rgb(245, 194, 203);
     border: 1px dashed #000;
 }
