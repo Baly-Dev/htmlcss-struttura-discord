@@ -32,6 +32,10 @@
     justify-content: flex-end;
 }
 
+.flex-d-rr{
+    flex-direction: row-reverse;
+}
+
 .gap-15{
     gap: 15px;
 }
@@ -78,8 +82,22 @@ nav li{
 }
 
 /* section02 */
+#section02{
+    padding: 40px 0px;
+}
 
+#section02 .right, #section02 .left{
+    min-height: 400px;
+    padding: 20px 20px;
+}
 
+#section02 .right{
+    width: 40%;
+}
+
+#section02 .left{
+    width: 60%;
+}
 
 /* debug classes */
 .debug header{
@@ -100,5 +118,15 @@ nav li{
 
 .debug #section01 .content{
     background-color: rgb(224, 135, 232);
+    border: 1px dashed #000;
+}
+
+.debug #section02 .left{
+    background-color: rgb(69, 142, 247);
+    border: 1px dashed #000;
+}
+
+.debug #section02 .right{
+    background-color: rgb(245, 194, 203);
     border: 1px dashed #000;
 }
